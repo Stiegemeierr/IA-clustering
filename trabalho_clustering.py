@@ -1,9 +1,6 @@
 # =============================================================================
 # Trabalho Prático: Algoritmos de Clustering
 # Dataset: Maternal Health Risk Data Set
-# Tese: Investigar se algoritmos de clustering não supervisionados conseguem
-#        agrupar gestantes em perfis de risco (alto, médio, baixo) utilizando
-#        exclusivamente métricas fisiológicas.
 # =============================================================================
 
 import os
@@ -11,7 +8,7 @@ import warnings
 import numpy as np
 import pandas as pd
 import matplotlib
-matplotlib.use('Agg')  # Backend não-interativo para salvar figuras
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 
