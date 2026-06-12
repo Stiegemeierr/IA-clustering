@@ -1,0 +1,4 @@
+Algoritmo,Configuração,Silhouette,Davies-Bouldin,Calinski-Harabasz
+K-Means,"K=3, init=k-means++",0.3147745425765136,1.2215964397306607,484.39899055033396
+Agglomerative,"n_clusters=2, linkage=ward",0.33994688509718013,1.117741480477454,394.20649943186993
+DBSCAN,"eps=0.3, min_samples=3",0.7863916336939532,0.28363765870024776,1308.3082054022727
